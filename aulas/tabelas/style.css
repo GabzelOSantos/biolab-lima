@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+    padding: 10px;
+}
+
+thead{
+    background-color: green;
+}
+
+tbody{
+    background: conic-gradient(#eee 0.25turn, white 0 0.5turn, #eee 0 0.75turn, white 0)
+    center / 20px 20px;
+}
