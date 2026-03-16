@@ -1,0 +1,102 @@
+/* --- Sintaxe ---
+
+seletor{
+    propiedade: valor
+}
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #e96d6d;
+}
+
+p {
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    font-size: 50px;
+}
+
+.ola {
+    width: 100vw;
+    height: 25vw;
+    top: 8vw;
+    justify-content: center;
+    align-items:center;
+}
+
+.textos{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 10px;
+    font-size: 29px;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: rgba(0, 0, 255, 0.774);
+    font-weight: 100;
+    top: 0px;
+}
+
+h2{
+    color:rgba(0, 119, 255, 0.904);
+    font-weight: 500;
+    top: 15px;
+}
+
+h3{
+    color: #0af;
+    font-weight: 900;
+    top: 30px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botao1{
+    width: 30vw;
+    height: 20px;
+    top: 30vw;
+    background-color: #0af;
+    color: #fff;
+    font-size: 40px;
+    padding: 25px;
+    border: 5px dashed;
+    border-radius: 50px;
+}
+
+#botao2{
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 20px dotted #000;
+    background-color: #0af;
+    color: gray;
+}
+#botao3{
+    padding: 15px 25px 15px 25px;
+    font-size: 30px;
+    font-weight: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #5cfe62;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+}
